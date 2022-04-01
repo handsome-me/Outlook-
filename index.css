@@ -3,6 +3,31 @@
 .emailBody{
     display:flex;
     border: 1px solid gainsboro;
-    height: 100px;
-    
+   justify-content: space-between;
+   width: 100%;  
+}
+
+.emailContent{
+    display: flex;
+    flex-direction: column;
+     width:90%;
+     margin: 0px 10px;
+}
+
+.email-content-row{
+
+    display: inline-flex;
+    font-size: large;
+   
+
+}
+
+.avatarContainer{
+    width: 100px;
+   height: 100px;
+
+}
+.avatar{
+    width: 100%;
+    height:100%;
 }
